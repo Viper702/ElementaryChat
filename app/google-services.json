@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880656225650",
+    "firebase_url": "https://elementarychat-84afd.firebaseio.com",
+    "project_id": "elementarychat-84afd",
+    "storage_bucket": "elementarychat-84afd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880656225650:android:f2c654ec468eabc2",
+        "android_client_info": {
+          "package_name": "xyz.n4ve.elementarychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880656225650-jao9prp7b14f37f5ltfm77nvtfv76v3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "xyz.n4ve.elementarychat",
+            "certificate_hash": "0025ce497e1b5b45880e0619c1f06a13e2112050"
+          }
+        },
+        {
+          "client_id": "880656225650-sh7uk75umegk5dhk95j0ct6neus9i6u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPMAR2MjK3FKFbJ6JfrTSI9MlUk8lwSOQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880656225650-sh7uk75umegk5dhk95j0ct6neus9i6u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
