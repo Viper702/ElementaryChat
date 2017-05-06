@@ -21,7 +21,17 @@
         <!-- Username Label -->
 
         <EditText
-            android:id="@+id/input_username"
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="@string/email"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/input_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
@@ -30,11 +40,10 @@
             android:inputType="text"
             android:textSize="20sp" />
 
-
         <!-- Password Label -->
 
         <EditText
-            android:id="@+id/input_password"
+            android:id="@+id/input_username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"

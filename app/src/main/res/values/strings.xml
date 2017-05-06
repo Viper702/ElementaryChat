@@ -6,4 +6,5 @@
     <string name="register">Register</string>
     <string name="click_here_to_register">click here to register</string>
     <string name="auth_failed">Authentication failed</string>
+    <string name="email">Email</string>
 </resources>

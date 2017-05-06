@@ -19,11 +19,10 @@ import com.google.firebase.auth.FirebaseUser;
 public class RegisterActivity extends AppCompatActivity {
     private static final String TAG = "EmailPassword";
 
-    EditText username;
-    EditText password;
+    EditText username, password, email;
     Button regisButton;
-    String username_input;
-    String password_input;
+    String email_input, username_input, password_input;
+
 
     // [START declare_auth]
     private FirebaseAuth mAuth;
@@ -50,6 +49,7 @@ public class RegisterActivity extends AppCompatActivity {
                 if (user != null) {
                     // User is signed in
                     Log.d(TAG, "onAuthStateChanged:signed_in:" + user.getUid());
+
                 } else {
                     // User is signed out
                     Log.d(TAG, "onAuthStateChanged:signed_out");
@@ -64,6 +64,7 @@ public class RegisterActivity extends AppCompatActivity {
         regisButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                email_input = email.getText().toString();
                 username_input = username.getText().toString();
                 password_input = password.getText().toString();
                 if (username_input.isEmpty()) username.setError("Can't be blank");
@@ -79,6 +80,7 @@ public class RegisterActivity extends AppCompatActivity {
     }
 
     private void init() {
+        email = (EditText) findViewById(R.id.input_email);
         username = (EditText) findViewById(R.id.input_username);
         password = (EditText) findViewById(R.id.input_password);
         regisButton = (Button) findViewById(R.id.registerButton);
